@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    height: 100vh;
+    background: url("../img/ak-1.png") center / cover no-repeat;
+}
+
+#gnav{
+    width: 100%;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    overflow-x: hidden;
+}
+
+#gnav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#gnav .page {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gnav a{
+    display: block;
+}
+
+#gnav a:hover{
+    opacity: .8;
+}
+
+#gnav .logo img{
+    display: block;
+    height: 100px;
+}
+
+#gnav .page a{
+    height: 100%;
+    line-height: 100px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 2em;
+}
+
+main{
+    min-height: 100vh;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+#copyright{
+    color: #fff;
+    font-size: 12px;
+}
